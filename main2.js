@@ -37,6 +37,7 @@ function warnings(msg) {
 	Cwarnings.warnings(msg)
 }
 
+
 module.exports = {
 	newmessage(msg) {
 		if (msg.content === `${config.prefix}xp`) {
